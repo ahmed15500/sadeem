@@ -14,6 +14,6 @@ jobs:
         run: |
           git config user.name "ahmed15500"
           git config user.email "ahmed15500@users.noreply.github.com"
-          git mv sadeem-website.html index.html
+          git mv -f sadeem-website.html index.html
           git commit -m "SADEEM website — light color palette"
           git push
